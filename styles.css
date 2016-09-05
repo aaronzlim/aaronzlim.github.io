@@ -6,6 +6,44 @@ h1 {
     font-family: "Lucida Console", Sans-serif;
 }
 
+#navigation li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 1em;
+}
+
+#navigation li a {
+    text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+    display: block;
+    text-decoration: none;
+    color: #b5b5b5;
+    font-size: 1.6em;
+    margin: 0 0.5em;
+}
+
+#navigation li a:hover {
+    margin-top: 2px;
+}
+
+#navigation_container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.rectangle {
+    background: #1a8b53;
+    height: 62px;
+    position: relative;
+    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    z-index 500;
+    margin 3em 0;
+}
+
 #title {
 
 }
