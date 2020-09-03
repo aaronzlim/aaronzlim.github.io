@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 	<html>
+
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
-		<body>
+
+		<div class=banner>
 			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	    		</ul>
-			</nav>
+				| <a href="/">Home</a>
+				| <a href="/about">About</a>
+				| <a href="https://github.com/aaronzlim">github.com/aaronzlim</a>
+				| <a href="mailto:azl4.dev@gmail.com">azl4.dev@gmail.com</a> |
+
+		    </nav>
+		</div> <!--/.banner-->
+
+		<body>
 			<div class="container">
 
 			{{ content }}
 
 			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:azl4.dev@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/aaronzlim">github.com/aaronzlim</a></li>
-				</ul>
-			</footer>
 		</body>
+
 	</html>
